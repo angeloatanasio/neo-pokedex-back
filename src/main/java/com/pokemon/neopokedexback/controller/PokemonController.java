@@ -4,12 +4,9 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.pokemon.neopokedexback.dto.NouveauPokemonDTO;
 import com.pokemon.neopokedexback.dto.PokemonDTO;
 import com.pokemon.neopokedexback.facade.PokemonFacade;
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.lang3.math.NumberUtils;
 import org.springframework.http.ResponseEntity;
-import org.springframework.test.annotation.Timed;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 

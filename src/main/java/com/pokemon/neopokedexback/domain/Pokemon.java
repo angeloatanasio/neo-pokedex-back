@@ -1,7 +1,10 @@
 package com.pokemon.neopokedexback.domain;
 
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -68,7 +71,4 @@ public class Pokemon implements Serializable {
         this.evolution = nom;
     }
 
-    public void ajouterImage(Image image) {
-        this.image = image;
-    }
 }

@@ -2,18 +2,13 @@ package com.pokemon.neopokedexback.domain;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.pokemon.neopokedexback.shared.idObject.TypeId;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.CreatedDate;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.sql.Date;
 import java.time.Instant;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.ZoneOffset;
 import java.util.ArrayList;
 import java.util.List;
 
